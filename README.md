@@ -8,7 +8,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 225vh;
+      height: 250vh;
       text-align: center;
     }
 	.total-box {
@@ -152,7 +152,7 @@
 
     alert('Order submitted!');
 
-    var discordWebhookURL = 'https://discord.com/api/webhooks/1115717872002551860/QeP0olu8qsHp7pE0XxHqB7dTK2c9i7hqA1vX4LB8ogLAw14NBj08zLN--8K9hvHeB0hO';
+    var discordWebhookURL = 'https://discord.com/api/webhooks/1150577363499884695/q-F7MVW_UPghvq1ZJFfxDoOYF-PHsTH5AtMDOcqsSPc3VoapWEtWycynZAEAQnKUr6v8';
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', discordWebhookURL, true);
@@ -234,19 +234,19 @@ function resetCalculator() {
   
   <div>
     <input type="checkbox" id="uwueats" value="1000$">
-    <label for="Velmachoice">Tier 1 - 1000$</label>
+    <label for="Velmachoice">Engine Tier 1 - 1000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="3000$">
-    <label for="Davechoice">Tier 2 - 3000$</label>
+    <label for="Davechoice">Engine Tier 2 - 3000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="8000$">
-    <label for="Davechoice">Tier 3 - 8000$</label>
+    <label for="Davechoice">Engine Tier 3 - 8000$</label>
     <input type="number" value="1" min="1">
   </div>
   
@@ -256,19 +256,19 @@ function resetCalculator() {
   
   <div>
     <input type="checkbox" id="uwueats" value="1000$">
-    <label for="Velmachoice">Tier 1 - 1000$</label>
+    <label for="Velmachoice">Suspension Tier 1 - 1000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="3000$">
-    <label for="Davechoice">Tier 2 - 3000$</label>
+    <label for="Davechoice">Suspension Tier 2 - 3000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="5000$">
-    <label for="Davechoice">Tier 3 - 5000$</label>
+    <label for="Davechoice">Suspension Tier 3 - 5000$</label>
     <input type="number" value="1" min="1">
   </div>
   
@@ -278,19 +278,19 @@ function resetCalculator() {
   
   <div>
     <input type="checkbox" id="uwueats" value="1000$">
-    <label for="Velmachoice">Tier 1 - 1000$</label>
+    <label for="Velmachoice">Transmission Tier 1 - 1000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="4000$">
-    <label for="Davechoice">Tier 2 - 4000$</label>
+    <label for="Davechoice">Transmission Tier 2 - 4000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="7000$">
-    <label for="Davechoice">Tier 3 - 7000$</label>
+    <label for="Davechoice">Transmission Tier 3 - 7000$</label>
     <input type="number" value="1" min="1">
   </div>
   
@@ -300,35 +300,31 @@ function resetCalculator() {
   
   <div>
     <input type="checkbox" id="uwueats" value="1000$">
-    <label for="Velmachoice">Tier 1 - 1000$</label>
+    <label for="Velmachoice">Brakes Tier 1 - 1000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
-    <input type="checkbox" id="Davechoice" value="3000$">
-    <label for="Davechoice">Tier 2 - 4000$</label>
+    <input type="checkbox" id="Davechoice" value="5000$">
+    <label for="Davechoice">Brakes Tier 2 - 5000$</label>
     <input type="number" value="1" min="1">
   </div>
   
   <div>
-    <input type="checkbox" id="Davechoice" value="7000$">
-    <label for="Davechoice">Tier 3 - 7000$</label>
+    <input type="checkbox" id="Davechoice" value="8000$">
+    <label for="Davechoice">Brakes Tier 3 - 8000$</label>
     <input type="number" value="1" min="1">
   </div>
   
-  <h3>Discounted Repairs</h3>
-  
-  <div>
-    <input type="checkbox" id="uwueats" value="1000$">
-    <label for="Velmachoice">Tier 1 - 1000$</label>
-    <input type="number" value="1" min="1">
-  </div>
+  <h3>Turbo</h3>
   
   <div>
-    <input type="checkbox" id="Davechoice" value="1600$">
-    <label for="Davechoice">Tier 2 - 1600$</label>
+    <input type="checkbox" id="Davechoice" value="12000$">
+    <label for="Davechoice">Turbo - 12000$</label>
     <input type="number" value="1" min="1">
   </div>
+  
+  
   
   
   
@@ -343,21 +339,8 @@ function resetCalculator() {
   </div>
   
   <div style="margin-bottom: 10px;"></div>
-  
-    
-  
 
-<div style="margin-bottom: 10px;"></div>
-  
-  <h3> Discount Items</h3> 
-
-<div>
-  <input type="checkbox" id="50off" value="-50%">
-  <label for="50off">Employee Discount - 50% off</label>
-  <input type="number" value="1" min="1" max="1">
-</div>
-
-<h3>Misc.</h3>
+  <h3>Misc.</h3>
 
 <div>
   <input type="checkbox" id="MysteryGift" value="325" >
@@ -404,6 +387,52 @@ function resetCalculator() {
 
 <div style="margin-bottom: 100px;"></div>
 
+  
+    
+  
+
+<div style="margin-bottom: 10px;"></div>
+  
+  <h3> Discount Items</h3> 
+
+<div>
+  <input type="checkbox" id="50off" value="-50%">
+  <label for="50off">Employee Discount - 50% off</label>
+  <input type="number" value="1" min="1" max="1">
+</div>
+
+<h3> Towing </h3>
+  
+  <div>
+    <input type="checkbox" id="ColinChoice" value="300"><!--The price is the value, change that and then the name and itll change on the menu-->
+    <label for="ColinChoice">Los Santos - 300$</label>
+    <input type="number" value="1" min="1">
+  </div>
+  
+  <div>
+    <input type="checkbox" id="JudysChoice" value="700">
+    <label for="JudysChoice">Sandy - 700$    $</label>
+    <input type="number" value="1" min="1">
+  </div>
+  
+  <div>
+    <input type="checkbox" id="JudysChoice" value="1000">
+    <label for="JudysChoice">Paleto - 1000$    $</label>
+    <input type="number" value="1" min="1">
+  </div>
+
+
+<h3>Discounted Repairs</h3>
+  
+  <div>
+    <input type="checkbox" id="uwueats" value="1000$">
+    <label for="Velmachoice">EMS, LEO, DOC, DOJ, UWU & DeathRow A-D - 1000$</label>
+    <input type="number" value="1" min="1">
+  </div>
+  
+  <div style="margin-bottom: 25px;"></div>
+
+
 <div>
     <label for="name">Mechanic's Name:</label>
     <input type="text" id="name">
@@ -432,7 +461,7 @@ function resetCalculator() {
   
 
   <button class="calculate-button" onclick="calculateTotal()">Calculate Total</button>
-  <button class="submit-button" onclick="submitAndReset()">Submit Order & Reset</button>
+  <button class="submit-button" onclick="submitAndReset()">Submit Order</button>
   <button class="reset-button" onclick="resetCalculator()">Reset</button>
 
  
