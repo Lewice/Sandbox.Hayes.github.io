@@ -379,7 +379,7 @@ function resetCalculator() {
   
   <div>
   <input type="checkbox" id="MysteryGift" value="2000" >
-  <label for="MysteryBox">Fantastic Wax (3-4 days)</label>
+  <label for="MysteryBox">Fantastic Wax (3-4 days) - 2000$ </label>
   <input type="number" value="1" min="1">
 </div>
 
