@@ -31,7 +31,7 @@
 	font-weight: bold;
 	}
 	body {
-	background-color: #963264;
+	background-color: lightblue;
 	}
   </style>
   <script>
@@ -159,7 +159,7 @@
 </head>
 <body>
 
-  <h2>Paleto Tuners</h2>
+  <h2>Hayes</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
