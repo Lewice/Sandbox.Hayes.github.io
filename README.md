@@ -152,7 +152,7 @@
 </head>
 <body>
 
-  <h2>Paleto Tuners</h2>
+  <h2>Benny's</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
