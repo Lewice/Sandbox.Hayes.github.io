@@ -108,12 +108,10 @@
     headers: {
       accessKey: "696626e7e09412238016fe2b4041b89c",
       secretKey: "1f3c76e9b958aaf6e23406246cf7eb35",
-      // Add headers for the spreadsheet submission
       "Content-Type": "application/x-www-form-urlencoded",
     },
     success: function () {
       alert("Form Data Submitted to Spreadsheet and Discord :)");
-      // Reset the form after submission
       resetForm();
     },
     error: function () {
@@ -121,10 +119,26 @@
     }
   });
 
+  // Prepare data for Discord webhook
+  const discordData = {
+    username: "Vangelico Employee Recipts",
+    content: `New order submitted by ${employeeName}`,
+    embeds: [{
+      title: "Order Details",
+      fields: [
+        { name: "Employee Name", value: employeeName, inline: true },
+        { name: "Total", value: `$${total.toFixed(2)}`, inline: true },
+        { name: "Commission", value: `$${commission.toFixed(2)}`, inline: true },
+        { name: "Discount Applied", value: `${discount}%`, inline: true },
+        { name: "Items Ordered", value: orderedItems.map(item => `${item.quantity}x ${item.name}`).join('\n') }
+      ],
+      color: 0x00ff00 // You can customize the color
+    }]
+  };
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "https://discord.com/api/webhooks/1150577363499884695/q-F7MVW_UPghvq1ZJFfxDoOYF-PHsTH5AtMDOcqsSPc3VoapWEtWycynZAEAQnKUr6v8",
+    url: "https://discord.com/api/webhooks/1150577363499884695/q-F7MVW_UPghvq1ZJFfxDoOYF-PHsTH5AtMDOcqsSPc3VoapWEtWycynZAEAQnKUr6v8", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
@@ -135,6 +149,16 @@
       console.error("Error sending data to Discord :(");
     }
   });
+
+  // Reset checkboxes and quantity inputs
+  $('.menu-item').prop('checked', false);
+  $('.quantity').val(1);
+
+  // Reset totals
+  document.getElementById('total').innerText = '';
+  document.getElementById('commission').innerText = '';
+  // Reset discount dropdown to default
+  $("#discount").val("0");
 }
 
     function resetForm() {
