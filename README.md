@@ -295,11 +295,11 @@
     <h3>Towing</h3>
 
     <label>
-      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> City - 300$
+      <input type="checkbox" class="menu-item exclude-discount" data-price="300"> City - 300$
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> Sandy - 700$
+      <input type="checkbox" class="menu-item exclude-discount" data-price="700"> Sandy - 700$
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
