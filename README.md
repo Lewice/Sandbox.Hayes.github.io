@@ -121,7 +121,7 @@
 
   // Prepare data for Discord webhook
   const discordData = {
-    username: "Vangelico Employee Recipts",
+    username: "Benny's Recipts",
     content: `New order submitted by ${employeeName}`,
     embeds: [{
       title: "Order Details",
