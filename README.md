@@ -189,7 +189,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Engine Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="8000"> Engine Tier 3 - $8000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
@@ -233,7 +233,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Brakes Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="8000"> Brakes Tier 3 - $8000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -269,7 +269,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="400"> Cleaning Kit - $400
+      <input type="checkbox" class="menu-item" data-price="500"> Cleaning Kit - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
@@ -278,6 +278,32 @@
     </label>
 	<label>
       <input type="checkbox" class="menu-item" data-price="2000"> Fantastic Wax (3-4 days) - $2000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
+
+    <h3>Discounted repairs</h3>
+
+    <label>
+      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> EMS, LEO, DOC, DOJ, UWU - 1000$
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
+
+
+ 
+    <h3>Towing</h3>
+
+    <label>
+      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> City - 300$
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> Sandy - 700$
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> Poleto - 1000$
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
