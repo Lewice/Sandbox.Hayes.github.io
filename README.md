@@ -246,7 +246,7 @@
 	
 	<h3>Repairs</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (S-A Class) - $1400
+      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (D-S Class) - $1400
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
